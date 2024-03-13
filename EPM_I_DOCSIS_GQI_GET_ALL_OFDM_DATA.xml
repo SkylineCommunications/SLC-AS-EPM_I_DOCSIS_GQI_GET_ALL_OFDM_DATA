@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>SKYLINE2\GBO</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder></Folder>
+
+	<Protocols>
+	</Protocols>
+
+	<Memory>
+	</Memory>
+
+	<Parameters>
+	</Parameters>
+
+	<Script>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1]]]></Value>
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA</Param>
+			<Message></Message>
+		</Exe>
+	</Script>
+</DMSScript>

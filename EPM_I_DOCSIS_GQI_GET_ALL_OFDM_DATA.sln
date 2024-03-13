@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{08ED50F5-F5F3-40DB-8B5B-CEA9F6FBE124}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{60CF8F1B-E35D-459D-A136-84D3058A3F9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{89589086-7F98-4574-B7AC-2F724FD30C5F}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{21E7437B-527D-49EE-BE17-F4D5AE060F16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{C89885FA-DB33-45E9-BCC8-19F8F1A7711A}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{67DB2A7A-B214-4EEA-AD98-1F9419AFEC44}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{DF4815BF-25F0-4273-BF5B-3A00EDF5A46E}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA", "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA", "{60C02A30-33CA-4E47-B957-5B0DE657D9D3}"
+	ProjectSection(SolutionItems) = preProject
+		EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml = EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{73C52EE2-4FDC-409E-9789-95385C589806}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1", "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.csproj", "{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C89885FA-DB33-45E9-BCC8-19F8F1A7711A} = {21E7437B-527D-49EE-BE17-F4D5AE060F16}
+		{DF4815BF-25F0-4273-BF5B-3A00EDF5A46E} = {08ED50F5-F5F3-40DB-8B5B-CEA9F6FBE124}
+		{60C02A30-33CA-4E47-B957-5B0DE657D9D3} = {60CF8F1B-E35D-459D-A136-84D3058A3F9E}
+		{73C52EE2-4FDC-409E-9789-95385C589806} = {60C02A30-33CA-4E47-B957-5B0DE657D9D3}
+		{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2} = {73C52EE2-4FDC-409E-9789-95385C589806}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14753CB2-E1A6-4F06-A3DE-1A04CFF19EF9}
+	EndGlobalSection
+EndGlobal
