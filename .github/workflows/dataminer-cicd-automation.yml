@@ -25,6 +25,5 @@ jobs:
       owner: ${{ github.repository_owner }}
       sonarCloudProjectName: SkylineCommunications_SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA
     secrets:
-      # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
       api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
       sonarCloudToken: ${{ secrets.SONAR_TOKEN }}
