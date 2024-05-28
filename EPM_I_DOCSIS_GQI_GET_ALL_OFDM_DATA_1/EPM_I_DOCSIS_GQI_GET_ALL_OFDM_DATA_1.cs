@@ -147,6 +147,8 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
             new GQIStringColumn("Service Group Name"),
             new GQIStringColumn("Node Segment Name"),
             new GQIStringColumn("DS Port Name"),
+            new GQIStringColumn("Primary Key"),
+            new GQIStringColumn("CCAP ID"),
         };
     }
 
@@ -177,7 +179,7 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
                 return new OnArgumentsProcessedOutputArgs();
             }
 
-            var ccapTable = GetTable(Convert.ToString(backEndHelper.CcapId), 5700, new List<string>
+			var ccapTable = GetTable(Convert.ToString(backEndHelper.CcapId), 5700, new List<string>
             {
                 String.Format("forceFullTable=true;fullFilter=({0}=={1})", entityNameCcapPid, filterEntity),
             });
@@ -187,7 +189,7 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
                 String.Format("forceFullTable=true;fullFilter=({0}=={1})", entityNameCmCollectorPid, filterEntity),
             });
 
-            Dictionary<string, CcapOfdmOverview> ccapRows = ExtractCcapData(ccapTable);
+            Dictionary<string, CcapOfdmOverview> ccapRows = ExtractCcapData(ccapTable, backEndHelper.CcapId);
 
             Dictionary<string, CmCollectorOfdmOverview> collectorRows = ExtractCollectorData(collectorTable);
 
@@ -288,7 +290,7 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
         return stringValue;
     }
 
-    private static Dictionary<string, CcapOfdmOverview> ExtractCcapData(List<HelperPartialSettings[]> ccapTable)
+    private static Dictionary<string, CcapOfdmOverview> ExtractCcapData(List<HelperPartialSettings[]> ccapTable,string CcapId)
     {
         Dictionary<string, CcapOfdmOverview> ccapRows = new Dictionary<string, CcapOfdmOverview>();
         if (ccapTable != null && ccapTable.Any())
@@ -307,6 +309,7 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
                     OfdmNodeSegmentName = Convert.ToString(ccapTable[7][i].CellValue),
                     OfdmServiceGroupName = Convert.ToString(ccapTable[5][i].CellValue),
                     OfdmDsPortName = Convert.ToString(ccapTable[9][i].CellValue),
+                    DmaIDElementID = CcapId,
                 };
 
                 ccapRows[key] = ccapRow;
@@ -385,7 +388,15 @@ public class CmData : IGQIDataSource, IGQIInputArguments, IGQIOnInit
                     {
                         Value = ParseStringValue(ccapRow.Value.OfdmDsPortName),
                     },
-                };
+					new GQICell
+					{
+						Value = ParseStringValue(ccapRow.Value.OfdmaId),
+					},
+					new GQICell
+					{
+						Value = ParseStringValue(ccapRow.Value.DmaIDElementID),
+					},
+				};
 
             var gqiRow = new GQIRow(listGqiCells.ToArray());
 
@@ -433,6 +444,10 @@ public class CcapOfdmOverview
     public string OfdmNodeSegmentName { get; set; }
 
     public string OfdmDsPortName { get; set; }
+
+    public string DmaIDElementID { get; set; }
+
+    public string PrimaryKey { get; set; }
 }
 
 public class CmCollectorOfdmOverview
