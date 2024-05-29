@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1
-build_property.ProjectDir = C:\GIT\GitHub\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\57311\Documents\GitHub\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\
