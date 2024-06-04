@@ -1,21 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "/jlEDUDSjq/4mH2biea+e8tn5GFnaPaxhEWHB+7qsvplsUziIf1j3gJtkti0Nrw61cWnOBckSONkXfMFY8olRQ==",
+  "dgSpecHash": "jW2TloAV2aI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\57311\\Documents\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.csproj",
+  "projectFilePath": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\57311\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\sharpziplib\\0.86.0\\sharpziplib.0.86.0.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.dev.automation\\10.1.0.6\\skyline.dataminer.dev.automation.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.dev.common\\10.1.0.6\\skyline.dataminer.dev.common.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.protobufnet\\10.1.0.6\\skyline.dataminer.files.protobufnet.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.skyline.dataminer.storage.types\\10.1.0.6\\skyline.dataminer.files.skyline.dataminer.storage.types.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.slanalyticstypes\\10.4.3.2\\skyline.dataminer.files.slanalyticstypes.10.4.3.2.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.slloggerutil\\10.1.0.6\\skyline.dataminer.files.slloggerutil.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.slmanagedautomation\\10.1.0.6\\skyline.dataminer.files.slmanagedautomation.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.slnettypes\\10.1.0.6\\skyline.dataminer.files.slnettypes.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\skyline.dataminer.files.slprotobuflibrary\\10.1.0.6\\skyline.dataminer.files.slprotobuflibrary.10.1.0.6.nupkg.sha512",
-    "C:\\Users\\57311\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\sharpziplib\\0.86.0\\sharpziplib.0.86.0.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.dev.automation\\10.1.0.6\\skyline.dataminer.dev.automation.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.dev.common\\10.1.0.6\\skyline.dataminer.dev.common.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.protobufnet\\10.1.0.6\\skyline.dataminer.files.protobufnet.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.skyline.dataminer.storage.types\\10.1.0.6\\skyline.dataminer.files.skyline.dataminer.storage.types.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.slanalyticstypes\\10.4.3.2\\skyline.dataminer.files.slanalyticstypes.10.4.3.2.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.slloggerutil\\10.1.0.6\\skyline.dataminer.files.slloggerutil.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.slmanagedautomation\\10.1.0.6\\skyline.dataminer.files.slmanagedautomation.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.slnettypes\\10.1.0.6\\skyline.dataminer.files.slnettypes.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\skyline.dataminer.files.slprotobuflibrary\\10.1.0.6\\skyline.dataminer.files.slprotobuflibrary.10.1.0.6.nupkg.sha512",
+    "C:\\Users\\gabrielbo\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devcore3:81/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

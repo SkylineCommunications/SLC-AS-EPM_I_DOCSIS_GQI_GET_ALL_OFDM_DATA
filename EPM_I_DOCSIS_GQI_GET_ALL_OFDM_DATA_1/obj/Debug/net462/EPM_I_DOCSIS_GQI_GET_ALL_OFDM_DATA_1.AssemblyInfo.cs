@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© Skyline Communications")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83dbae5308bbf0d6132570a7badbe58fe6437a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

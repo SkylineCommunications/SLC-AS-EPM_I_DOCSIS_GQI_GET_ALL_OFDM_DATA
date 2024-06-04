@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}|EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.csproj|c:\\git\\github\\slc-as-epm_i_docsis_gqi_get_all_ofdm_data\\epm_i_docsis_gqi_get_all_ofdm_data_1\\epm_i_docsis_gqi_get_all_ofdm_data_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DCD50AD-C85F-4122-B319-4CFA99BFB4B2}|EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.csproj|solutionrelative:epm_i_docsis_gqi_get_all_ofdm_data_1\\epm_i_docsis_gqi_get_all_ofdm_data_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C02A30-33CA-4E47-B957-5B0DE657D9D3}|EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA{60C02A30-33CA-4E47-B957-5B0DE657D9D3}|C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{60C02A30-33CA-4E47-B957-5B0DE657D9D3}|EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA{60C02A30-33CA-4E47-B957-5B0DE657D9D3}|solutionrelative:EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{22f8e717-7905-4e00-93a7-c1717c56d1d5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{64debe95-07ea-48ac-8744-af87605d624a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.cs",
+              "DocumentMoniker": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.cs",
+              "RelativeDocumentMoniker": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.cs",
+              "ToolTip": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.cs",
+              "RelativeToolTip": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA_1.cs",
+              "ViewState": "AQIAAKsBAAAAAAAAAAAiwMQBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T15:22:11.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml",
+              "DocumentMoniker": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml",
+              "RelativeDocumentMoniker": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml",
+              "ToolTip": "C:\\GIT\\GitHub\\SLC-AS-EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA\\EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml",
+              "RelativeToolTip": "EPM_I_DOCSIS_GQI_GET_ALL_OFDM_DATA.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-31T15:22:11.85Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
